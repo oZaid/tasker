@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tasker</title>
+    <link rel="icon" type="image/png" href="img/KSU.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f59b758655.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="blur hide" ></div>
+    <div class="control-page">
+        <div class="screen-control">
+            <div class="check-bg"></div>
+        </div>
+        <span class="language" dir="ltr">EN</span>
+    </div>
+    <div class="container" >
+
+        <h2 dir="ltr">Study Hard... Keep Healthy 💪🏼</h2>
+
+        <div class="ops" >
+            
+            <div class="sort">
+                <label for="sort" >ترتيب حسب : </label>
+                <select name="sort" id="sorter" >
+                    <option value="nearest" selected>الأقرب</option>
+                    <option value="mid">اختبار شهري</option>
+                    <option value="others">واجب أو متطلب</option>
+                </select>
+            </div>
+            
+            <button id="open-modal">إضافة</button>
+            
+        </div>
+        
+        <div class="add-div hide">
+            <i class="fa-solid fa-xmark close"></i>
+            
+            <input type="text" id="add-inp" name="name" placeholder="العنوان">
+
+            <div class="hi" dir="ltr">
+                <h3>Dead-Line: </h3>
+                <input type="date"  id="add-date" name="deadline">
+            </div>
+
+            <div class="category">
+                <label for="category">تصنيف:  </label>
+                <select name="category" id="category">
+                    <option value="others" selected>أخرى</option>
+                    <option value="mid">اختبار شهري</option>
+                </select>
+            </div>
+
+            <button id="add">إضافة</button>
+            
+        </div>
+
+
+        <div class="task-display">
+
+            <div class="task">
+                <div class="task-info">
+                    <h6>قبل <span>30 أبريل</span></h6>
+                    
+                    <h3 contenteditable="false">كويز الدوخي الله يصلحه</h3>
+                </div>
+                
+                <div class="control-position">
+
+                    <div class="control">
+                        <i class="fa-solid fa-pencil edit" data-id="13123"></i>
+                        <i class="fa-regular fa-trash-can delete" data-id="1"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="task">
+                <div class="task-info">
+                    <h6>قبل <span>25 أبريل</span></h6>
+                    
+                    <h3> مشروع برزنتيشن وتقريرين عند الهنودمشروع برزنتيشن وتقريرين عند الهنود</h3>
+                </div>
+                
+                    <div class="control-position">
+
+                        <div class="control">
+                            <i class="fa-solid fa-pencil edit" data-id="1"></i>
+                            <i class="fa-regular fa-trash-can delete" data-id="1"></i>
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="task">
+                <div class="task-info">
+                    <h6>قبل <span>25 أبريل</span></h6>
+                    
+                    <h3> مشروع برزنتيشن وتقريرين عند الهنودمشروع برزنتيشن وتقريرين عند الهنودمشروع برزنتيشن وتقريرين عند الهنود</h3>
+                </div>
+                
+                <div class="control-position">
+
+                    <div class="control">
+                        <i class="fa-solid fa-pencil edit" data-id="1"></i>
+                        <i class="fa-regular fa-trash-can delete" data-id="1"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة لزيد 	&copy;</p>
+    </footer>
+    
+    <script src="script/script.js"></script>
+
+</body>
+</html>

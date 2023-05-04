@@ -1,0 +1,37 @@
+extends base
+
+block content 
+  h2(dir="ltr") Study Hard... Keep Healthy 💪🏼
+  .ops
+    .sort
+      label(for="sort") ترتيب حسب :
+      select#sorter(name="sort")
+        option(value="nearest" selected) الأقرب
+        option(value="mid") اختبار شهري
+        option(value="others") واجب أو متطلب
+    button#open-modal إضافة
+
+  .add-div.hide
+    i.fa-solid.fa-xmark.close
+
+    input#add-inp(type="text" name="name" placeholder="العنوان")
+
+    .hi(dir="ltr")
+      h3 Dead-Line: 
+      input#add-date(type="date" name="deadline")
+
+    .category
+      label(for="category") التصنيف:  
+      select#category(name="category")
+        option(value="others" selected) أخرى
+        option(value="mid") اختبار شهري
+
+    button#add إضافة
+
+  .tasks-display
+    .user-tasks(data-id=`${JSON.stringify(user._id)}`)
+
+  //- each task in user.tasks
+  //-   h3=task.name
+  button#logout الخروج
+  script(src="/script/script.js") 

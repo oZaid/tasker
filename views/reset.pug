@@ -1,0 +1,10 @@
+extends base 
+
+block content
+  .token(data-token=`${token}`)
+  form.form.form--reset(dir='ltr')
+    input(type="password" name="password" placeholder="Enter Your Password" autocomplete='off' required)
+    input(type="password" name="passwordConfirm" placeholder="Re-enter Your Password" autocomplete='off' required)
+    button(type="submit") تغيير
+  a(href='/login') العودة لتسجيل الدخول
+

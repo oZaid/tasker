@@ -1,0 +1,10 @@
+extends base 
+
+block content
+  form.form.form--login(dir='ltr')
+    input(type="text" name="username" placeholder="Enter Your Username" autocomplete='off' required)
+    input(type="password" name="password" placeholder="Enter Your Password" required)
+    button(type="submit") تسجيل الدخول
+    a(href='/forgot') نسيت الرمز؟
+  a(href='/signup') التسجيل
+

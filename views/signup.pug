@@ -1,0 +1,12 @@
+extends base 
+
+block content
+  form.form.form--signup(dir='ltr')
+    input(type="text" name="username" placeholder="Choose Your Username" required)
+    input(type="email" name="email" placeholder="Enter Your Email" required)
+    input(type="password" name="password" placeholder="Choose Your Password" required)
+    input(type="password" name="passwordConfirm" placeholder="Confirm Password" required)
+    button(type="submit") التسجيل
+
+  a(href='/login') تسجيل الدخول
+  

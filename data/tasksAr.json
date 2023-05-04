@@ -1,0 +1,52 @@
+[
+{
+"name": "اختبار شهري الدوخي",
+"category": "mid",
+"deadline": "2023-05-28"
+},
+{
+"name": "تقرير حساين",
+"category": "others",
+"deadline": "2023-05-28"
+},
+{
+"name": "تقرير الدكتور حسام",
+"category": "others",
+"deadline": "2023-05-27"
+},
+{
+"name": "اختبار شهري احمد راضي",
+"category": "mid",
+"deadline": "2023-05-24"
+},
+{
+"name": "تقرير افتخار",
+"category": "others",
+"deadline": "2023-05-21"
+},
+{
+"name": "اختبار شهري السيد يونس",
+"category": "mid",
+"deadline":  "2023-05-21"
+},
+{
+"name": "اختبار شهري الفكي",
+"category": "mid",
+"deadline":  "2023-05-18"
+},
+{
+"name": "اختبار شهري دكتور معاذ",
+"category": "mid",
+"deadline":  "2023-05-14"
+},
+{
+"name": "برزنتيشن عبدالوهاب",
+"category": "mid",
+"deadline":  "2023-05-12"
+},
+{
+"name": "تقرير الدكتور حسام",
+"category": "mid",
+"deadline":  "2023-05-07"
+}
+]
